@@ -1,0 +1,37 @@
+<!-- Blackjack game by Vanessa Tsang on October 2019. -->
+
+<!-- Programming for Web Pages: 
+Every application will need to gather info from a user, and most common way to do that in JS is through a web page.
+Also we would want to display output to a user through a web page. Now we can start working with HTML5 tags.
+We'll start by setting up a web page. We'll add a few basic elements and we'll see what we need to do to access these elements in JS.
+Next we'll go to JS and we'll see how to change some text on the web page.
+Next we'll have buttons on our web page, but we want to know when those buttons get clicked.
+We'll see how to handle a button click using what's called an event handler.
+Next we'll see how to remove and add elements to a web page, and we'll wrap up the module by adding a user interface to our Blackjack
+
+Setting up a Web Page:
+DOM: Document Object Model: Defines how the data of a web page is organised and manipulated.
+Document refers to a web page, an HTML file. A model refers to the data that we use in any program.
+We store our data most of the time in an object, so that's the object model. So you'll hear this term DOM, often. 
+JS developers will refer a web page as the DOM as mostly interested in working with objects. -->
+
+
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1 id= "title">Blackjack</h1>
+    <h4>by Vanessa Tsang</h4>
+    
+    <p id="text-area">Welcome to Blackjack</p>
+    <button id= "new-game-button">New Game!</button>
+    <button id= "hit-button">Hit!</button>
+    <button id= "stay-button">Stay</button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
